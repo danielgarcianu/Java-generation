@@ -38,7 +38,7 @@ public class Ciclos {
 		for(int i=0;i < 10;i++) {
 			if(i % 2 == 0){//solo se imprime cuando el valor de i sera numero par
 			
-			continue;
+			continue; //permite saltarnos una ejecuci[on del ciclo  queja que continue 
 			}
 			System.out.println("Control = " + i);
 		}
@@ -51,4 +51,5 @@ public class Ciclos {
  * do while se ejecuta una vez antes de hacer la condiciónn
  * for la variable de control solo vive dentro de la variable for 
  * break & continue pueden modificar la estructura del for break termina el ciclo solo deja que se ejecute una ves lo que esta antes
+ * continue no debe tener codigo despues puesto que no lo va a ajecutar
  * */

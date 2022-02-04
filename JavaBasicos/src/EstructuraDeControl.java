@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EstructurDeControl {
+public class EstructuraDeControl {
 	
 	
 	public static void main(String[] args) {
